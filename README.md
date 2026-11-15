@@ -1,8 +1,10 @@
 ### Hi, I'm Heehyeon 👋
 
-I build AI products end to end, from the problem and the spec to the code and the deploy. I run [**Intbox**](https://intbox.org), an independent software studio, and write about what I build at [**hhkb.dev**](https://hhkb.dev).
+I'm a Tech Book Editor on the Learning Content team at **HanbitN**, where I plan and make books for the tech community. To truly understand the technologies I work with, I build working software myself.
 
-Most of my work sits where AI meets a real workflow: practice instead of lectures, simulation before access, evidence instead of guesses.
+From my time running the independent software studio [**Intbox**](https://intbox.org) to other personal builds, the projects below are tools built around how AI and security fit into everyday workflows.
+
+More about me can be found at [**hhkb.dev**](https://hhkb.dev).
 
 ---
 
@@ -13,13 +15,15 @@ Most of my work sits where AI meets a real workflow: practice instead of lecture
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/Shiftbase"><img src="assets/shiftbase.jpg" alt="Shiftbase" width="100%"></a>
 <h4><a href="https://github.com/toumai266/Shiftbase">Shiftbase</a></h4>
-Hands-on practice for workplace software and AI. Learn in a faithful replica of the real program, then do it in your own app with guidance overlaid on the actual screen.
+<i>Hands-on training environment for workplace software and AI.</i><br>
+Users practice first inside a replica of the target program, then switch to their actual app with step-by-step guidance overlaid directly on the screen.
 <br><br><sub>Next.js · React · .NET / WPF · UI Automation</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/Frontline"><img src="assets/frontline.jpg" alt="Frontline" width="100%"></a>
 <h4><a href="https://github.com/toumai266/Frontline">Frontline</a></h4>
-Reproducible stress tests for drone autonomy in the browser. Real quadrotor physics, seeded chaos and batch experiments with confidence intervals, bit-for-bit across engines.
+<i>Browser-based stress testing for drone autonomy.</i><br>
+Combines quadrotor physics, seeded chaos, and batch experiments with confidence intervals to run reproducible, bit-for-bit identical tests across engines.
 <br><br><sub>Rust · WebAssembly · TypeScript · Three.js</sub>
 </td>
 </tr>
@@ -27,13 +31,15 @@ Reproducible stress tests for drone autonomy in the browser. Real quadrotor phys
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/AgentSec-Twin"><img src="assets/agentsec-twin.jpg" alt="AgentSec Twin" width="100%"></a>
 <h4><a href="https://github.com/toumai266/AgentSec-Twin">AgentSec Twin</a></h4>
-A digital twin for AI agent security. Model agents, MCP servers, secrets and policies as one graph, and simulate a change to see which access paths it opens before it ships.
+<i>A digital twin for AI agent security.</i><br>
+Models agents, MCP servers, secrets, and policies as a single graph to simulate configuration changes and spot unintended access paths before deployment.
 <br><br><sub>Next.js · FastAPI · React Flow · Graph analysis</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/Ship-or-Slop"><img src="assets/ship-or-slop.jpg" alt="Ship or Slop" width="100%"></a>
 <h4><a href="https://github.com/toumai266/Ship-or-Slop">Ship or Slop</a></h4>
-Business ideas judged from several AI perspectives at once. Agents research, pitch, push back, revise and vote: Ship, Revise or Slop.
+<i>Multi-agent review for business ideas.</i><br>
+Multiple AI agents research, pitch, challenge, and revise an idea from different angles before voting on a final call: <b>Ship, Revise, or Slop.</b>
 <br><br><sub>Next.js · Supabase · Multi-model LLM routing</sub>
 </td>
 </tr>
@@ -41,13 +47,15 @@ Business ideas judged from several AI perspectives at once. Agents research, pit
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/Tracefield"><img src="assets/tracefield.jpg" alt="Tracefield" width="100%"></a>
 <h4><a href="https://github.com/toumai266/Tracefield">Tracefield</a></h4>
-Free Sentinel-2 imagery turned into region-level change you can read cell by cell, with map context and AI interpretation for every grid cell.
+<i>Regional change detection built on Sentinel-2 satellite imagery.</i><br>
+Turns open satellite data into grid-level insights, pairing map context with AI-generated analysis for each cell.
 <br><br><sub>FastAPI · Rasterio · MapLibre · OpenAI</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/tricrawl"><img src="assets/tricrawl.jpg" alt="TriCrawl" width="100%"></a>
 <h4><a href="https://github.com/toumai266/tricrawl">TriCrawl</a></h4>
-Dark web leak monitoring over Tor. Nine ransomware blogs and forums, deduped, scored against a watchlist, alerted to Discord and charted in Superset.
+<i>Dark web leak monitoring over Tor.</i><br>
+Tracks nine ransomware blogs and forums, deduplicates posts, scores entries against a watchlist, and sends alerts to Discord with charts in Superset.
 <br><br><sub>Python · Scrapy · Tor · Supabase · Superset</sub>
 </td>
 </tr>
@@ -55,24 +63,30 @@ Dark web leak monitoring over Tor. Nine ransomware blogs and forums, deduped, sc
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/Vibe-Audit"><img src="assets/vibe-audit.jpg" alt="Vibe Audit" width="100%"></a>
 <h4><a href="https://github.com/toumai266/Vibe-Audit">Vibe Audit</a></h4>
-Keeps coding agents on intent. Audits Claude Code, Gemini CLI and Codex sessions, scores every turn against your original goal and flags drift as it happens. <code>npx vibe-audit</code>
+<i>Intent-drift monitor for coding agents.</i> (<code>npx vibe-audit</code>)<br>
+Tracks Claude Code, Gemini CLI, and Codex sessions in real time, scoring each turn against your original prompt to catch when an agent goes off track.
 <br><br><sub>Python · FastAPI · React · LiteLLM · SQLite</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/toumai266/PurpleSim"><img src="assets/purplesim.jpg" alt="PurpleSim" width="100%"></a>
 <h4><a href="https://github.com/toumai266/PurpleSim">PurpleSim</a></h4>
-Play one real CVE from both sides of the console. Run the Red Team attack chain, then detect, contain and patch it as the Blue Team, all in the browser.
+<i>Browser-based CVE attack and defense simulator.</i><br>
+Walk through a real CVE from both sides of the terminal—run the Red Team exploit chain first, then switch to the Blue Team to detect, contain, and patch it.
 <br><br><sub>Next.js · TypeScript · Zustand · Tailwind CSS</sub>
 </td>
 </tr>
 </table>
 
+---
+
 ### More
 
 | Project | What it does |
-|---|---|
-| [**Mini ASM**](https://github.com/toumai266/Mini-ASM) | Attack surface workbench: discover, enrich with CVE/KEV/EPSS, verify with Nuclei, track drift. |
-| [**CAPE Noise Filter**](https://github.com/toumai266/CAPE-Intelligent-Noise-Filter) | Strips routine Windows noise from CAPE sandbox reports while quarantining every removed artifact. |
+| :--- | :--- |
+| [**Mini ASM**](https://github.com/toumai266/Mini-ASM) | Attack surface workbench that discovers assets, enriches them with CVE/KEV/EPSS data, runs Nuclei checks, and tracks changes over time. |
+| [**CAPE Noise Filter**](https://github.com/toumai266/CAPE-Intelligent-Noise-Filter) | Filters routine Windows background noise out of CAPE sandbox reports while keeping removed artifacts quarantined for review. |
+
+---
 
 ### Tools I reach for
 
@@ -87,4 +101,4 @@ Play one real CVE from both sides of the console. Run the Red Team attack chain,
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
-<sub>[hhkb.dev](https://hhkb.dev) · [intbox.org](https://intbox.org)</sub>
+[hhkb.dev](https://hhkb.dev) · [intbox.org](https://intbox.org)
